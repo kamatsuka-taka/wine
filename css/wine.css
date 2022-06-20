@@ -1,0 +1,117 @@
+@import url(common.css);
+body {
+    height: 1000px;
+}
+header, nav, #level, #contents, footer {
+    width: 1080px;
+    margin: 0 auto 0 auto;
+}
+nav ul {
+    list-style-type: none;
+    margin-right: -10px;
+    padding-left: 0;
+    overflow: hidden;
+}
+nav ul li {
+    width: 200px;
+    margin-right: 10px;
+    float: left;
+}
+nav ul li a {
+    height: 0;
+    padding-top: 70px;
+    overflow: hidden;
+}
+nav ul li#nav_info a {
+    background-image: url(../images/nav_1.png);
+}
+nav ul li#nav_plan a {
+    background-image: url(../images/nav2.png);
+}
+nav ul li#nav_guide a {
+    background-image: url(../images/nav3.png);
+}
+nav ul li#nav_contact a {
+    background-image: url(../images/nav4.png);
+}
+#main {
+   
+    width:700px;
+    float: left;
+}
+#sub {
+    width: 200px;
+  float: right;
+}
+footer #pagetop {
+  float: right;
+}
+footer #info_group {
+   clear: both;
+}
+#main h1 {
+     background-image: url(../images/back_h1_top.png);
+    margin: 0 0 30px 0;
+    padding: 30px 110px 30px 0;
+   
+    background-repeat: no-repeat;
+    background-position: left top;
+    color: brown;
+    font-size: 180%;
+    text-align: center;
+}
+#info #nav_info a, #plan #nav_plan a, #guide #nav_guide a, #contact #nav_contact a, nav ul li a:hover {
+    background-position: 0 -70px;
+}
+/*TOPページここから*/
+#topics ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+#topics ul li {
+    margin-top: 20px;
+    padding: 0 10px 20px 160px;
+    border-bottom: 1px dotted cornflowerblue;
+    text-indent: -160px;
+}
+/*わたしたちについて*/
+.h2_group {
+    margin-top: 20px;
+    overflow: hidden;
+}
+.h2_group:last-child {
+    margin-bottom: 10px;
+}
+/*ツアーのご案内はこちら*/
+table thead tr {
+    background-color: rgb(179, 107, 107);
+    color: black;
+}
+table tbody tr:nth-child(even) {
+    background-color: rgba(245, 243, 232, 0.985);
+}
+table tbody tr:nth-child(odd) {
+    background-color: white;
+}
+/*ツアー詳細はこちらです*/
+.facility_group figure {
+    width: 200px;
+    margin: 0 18px 25px 0;
+    float: left;
+}
+.facility_group figure:nth-child(3)  {
+    margin-right: 0;
+}
+/*お問い合わせページはこちらから*/
+input[type="text"],
+input[type="tel"],
+input[checkbox],
+textarea {
+    border: 1px solid rgb(138, 50, 221);
+}
+
+
+
+
+
