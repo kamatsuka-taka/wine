@@ -1,9 +1,10 @@
 @import url(common.css);
 body {
-    height: 1000px;
+    width: 900px;
+    height: 900px;
 }
 header, nav, #level, #contents, footer {
-    width: 1080px;
+    width: 840px;
     margin: 0 auto 0 auto;
 }
 nav ul {
@@ -38,7 +39,7 @@ nav ul li#nav_contact a {
 }
 #main {
    
-    width:700px;
+    width:640px;
     float: left;
 }
 #sub {
@@ -79,6 +80,7 @@ footer #info_group {
 }
 /*わたしたちについて*/
 .h2_group {
+    width: 600px;
     margin-top: 20px;
     overflow: hidden;
 }
