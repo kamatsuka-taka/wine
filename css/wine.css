@@ -7,6 +7,9 @@ header, nav, #level, #contents, footer {
     width: 900px;
     margin: 0 auto 0 auto;
 }
+header h1 {
+    text-align: center;
+}
 nav ul {
     list-style-type: none;
     margin-right: -10px;
@@ -47,7 +50,8 @@ nav ul li#nav_contact a {
   float: right;
 }
 footer #pagetop {
-  float: right;
+float: right;
+    /* float: right; */
 }
 footer #info_group {
    clear: both;
@@ -99,16 +103,25 @@ table tbody tr:nth-child(odd) {
     background-color: white;
 }
 /*ツアー詳細はこちらです*/
-.facility_group figure {
-    width: 200px;
-    /* margin:0 10px 5px 0; */
-    margin: 0 18px 25px 0;
-    float: left;
+.facility_group {
+    display: flex;
+    flex-wrap: wrap;
 }
-.facility_group figure:nth-child(3)  {
+.facility_group figure {
+
+    width: 200px;
+    margin:0 10px 15px 0;
+}
+    /* margin: 0 18px 25px 0; */
+    /* float: left; */
+
+/* .facility_group figure:first-child {
+    margin-left: 0;
+} */
+/* .facility_group figure:nth-child(3)  {
  
     margin-right: 0;
-}
+} */
 /*お問い合わせページはこちらから*/
 input[type="text"],
 input[type="tel"],
